@@ -3,9 +3,9 @@ import os
 import flet as ft
 from flet.auth.providers import GitHubOAuthProvider
 
-GITHUB_CLIENT_ID = "9d493b3ebc2389f1af18"  # os.getenv("GITHUB_CLIENT_ID")
+GITHUB_CLIENT_ID = ""  # os.getenv("GITHUB_CLIENT_ID")
 assert GITHUB_CLIENT_ID, "set GITHUB_CLIENT_ID environment variable"
-GITHUB_CLIENT_SECRET = "e07fb3c5b3560ae2e82fd6564673784d5428201e"  # os.getenv("GITHUB_CLIENT_SECRET")
+GITHUB_CLIENT_SECRET = ""  # os.getenv("GITHUB_CLIENT_SECRET")
 assert GITHUB_CLIENT_SECRET, "set GITHUB_CLIENT_SECRET environment variable"
 
 
